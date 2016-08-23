@@ -10,42 +10,43 @@ The framework should work equally well for both Python 2.7 and 3+.
 
 The included [main.py](src/main.py) file demonstrates basic usage. By default, the framework will print the output directly to the Python console. You can provide your own print function if you so desire. Here's an excerpt from the [main.py](src/main.py) file, showing basic usage. Please refer to actual [main.py](src/main.py) file for further examples.
 
-	from TestHelper import TestHelper
-	from array import array
+```python
+from TestHelper import TestHelper
+from array import array
 
-	#####################
-	#   Example Tasks   #
-	#####################
-	def addIntegers(A, B, C):
-		return A + B + C
+#####################
+#   Example Tasks   #
+#####################
+def addIntegers(A, B, C):
+	return A + B + C
 
-	def addListOrArray( listOrArray ):
-		returnValue = 0
-		for elem in listOrArray :
-			returnValue += elem
+def addListOrArray( listOrArray ):
+	returnValue = 0
+	for elem in listOrArray :
+		returnValue += elem
 
-		return returnValue
+	return returnValue
 
 
-	############
-	#   Main   #
-	############
-	if __name__ == "__main__":
-		# Execute only if run as a script
-		
-		# Create TestHelper
-		helper = TestHelper()
+############
+#   Main   #
+############
+if __name__ == "__main__":
+	# Execute only if run as a script
+	
+	# Create TestHelper
+	helper = TestHelper()
 
-		# Apply TestHelper to various possible use cases
-		helper.execute(addIntegers, 1, 2, 3)
-		helper.execute(addIntegers, 1, 10, 100)
+	# Apply TestHelper to various possible use cases
+	helper.execute(addIntegers, 1, 2, 3)
+	helper.execute(addIntegers, 1, 10, 100)
 
-		# Array's work fine, but...
-		helper.execute(addListOrArray, array('i', [0, 1, 2, 3, 4]))
-		# you'll probably want to stick with lists
-		helper.execute(addListOrArray, [0, 1, 2, 3, 4])
-		helper.execute(remixChars, "Hello World", [9,7,8,10], [0,4,6,1,2,3])
-
+	# Array's work fine, but...
+	helper.execute(addListOrArray, array('i', [0, 1, 2, 3, 4]))
+	# you'll probably want to stick with lists
+	helper.execute(addListOrArray, [0, 1, 2, 3, 4])
+	helper.execute(remixChars, "Hello World", [9,7,8,10], [0,4,6,1,2,3])
+```
 This will result in the following output:
 
 	addIntegers | Input: 1, 2, 3 | Output: 6
