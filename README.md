@@ -2,4 +2,4 @@
 
 This should link to the other repo
 
-[link to other repo](Codility-Cpp11-Framework)
+[link to other repo](https://github.com/Gazoo101/Codility-Cpp11-Framework)
