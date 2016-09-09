@@ -1,6 +1,6 @@
 # Codility-Python-Framework
 
-The increasing ubiquitous nature of automated code testing suites (like C0d1l1ty) I thought I'd release this simpler, and probably more useful Python-based framework. It's similar to [the C++11 version](Gazoo101/Codility-Cpp11-Framework), except (obviously) using Python. Unless your test *must* be conducted in C++11 (or some non-python language) I wholeheartedly recommend using framework as opposed to [the C++11 version](Gazoo101/Codility-Cpp11-Framework).
+The increasing ubiquitous nature of automated code testing suites (like C0d1l1ty) I thought I'd release this simpler, and probably more useful Python-based framework. It's similar to [the C++11 version](https://github.com/Gazoo101/Codility-Cpp11-Framework), except (obviously) using Python. Unless your test *must* be conducted in C++11 (or some non-python language) I wholeheartedly recommend using framework as opposed to [the C++11 version](https://github.com/Gazoo101/Codility-Cpp11-Framework).
 
 Assuming (at least) basic proficiency in both languages, you will utilize the testing time far more efficiently with Python.
 
