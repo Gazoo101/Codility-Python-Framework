@@ -1,8 +1,8 @@
 # Codility-Python-Framework
 
-The increasing ubiquitous nature of automated code testing suites (like C0d1l1ty) I thought I'd release this simpler, and probably more useful Python-based framework. It's similar to [the C++11 version](https://github.com/Gazoo101/Codility-Cpp11-Framework), except (obviously) using Python. Unless your test *must* be conducted in C++11 (or some non-python language) I wholeheartedly recommend using framework as opposed to [the C++11 version](https://github.com/Gazoo101/Codility-Cpp11-Framework).
+Given the prevalence of automated logic puzzle driven evaluation systems, I put together a simple Python framework designed to run and test small functions. It's so simple, it really mostly exists as a counter-point to the [the C++ version](https://github.com/Gazoo101/Codility-Cpp11-Framework), except (obviously) using Python.
 
-Assuming (at least) basic proficiency in both languages, you will utilize the testing time far more efficiently with Python.
+Unless your test *must* be conducted in C++ (or some non-python language) I strongly recommend using this framework as opposed to [the C++ version](https://github.com/Gazoo101/Codility-Cpp11-Framework). Assuming (at least) basic proficiency in both languages, you will utilize the testing time far more efficiently with Python.
 
 The framework should work equally well for both Python 2.7 and 3+.
 
@@ -55,6 +55,10 @@ This will result in the following output:
 	addListOrArray | Input: [0, 1, 2, 3, 4] | Output: 10
 
 ## Version History
+
+### 0.2
+
+* Tweaked code and files to more closely match PEP standards.
 
 ### 0.1
 
